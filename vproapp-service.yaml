@@ -8,5 +8,5 @@ spec:
       targetPort: vproapp-port
       protocol: TCP
   selector:
-    app: vpromq01
-  type: ClusterIP
+    app: vproapp
+  type: LoadBalancer
